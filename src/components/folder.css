@@ -1,0 +1,53 @@
+.folder{
+    margin-top: 6px;
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    width: 300px;
+    cursor: pointer;
+    
+}
+.folder:hover{
+    background-color: rgb(224, 222, 222);
+} 
+
+.folder > span {
+    margin: 1 5px 2px 0;
+}
+
+.file{
+    margin-top: 5px;
+    padding-left: 5px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.file:hover{
+    background-color: rgb(224, 222, 222);
+} 
+
+.inputcontainer {
+    display: flex;
+    align-items: center;
+    gap: 5;
+}
+
+.inputcontainer > span{
+    margin-top: 5px;
+}
+
+.inputcontainer__input{
+    margin: 6px 0 0 0 ;
+    padding: 5px;
+    width: 260px;
+    /* display: flex;
+    flex-direction: row; */
+    /* justify-content: space-between; */
+    border: 1px solid lightgray;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    margin-left: 5px;
+}
